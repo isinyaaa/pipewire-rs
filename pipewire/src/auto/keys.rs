@@ -161,9 +161,6 @@ key_constant!(NODE_EXCLUSIVE, PW_KEY_NODE_EXCLUSIVE,
 key_constant!(NODE_AUTOCONNECT, PW_KEY_NODE_AUTOCONNECT,
     /// node wants to be automatically connected to a compatible node
 );
-key_constant!(NODE_TARGET, PW_KEY_NODE_TARGET,
-    /// node wants to be connected to the target node/session
-);
 key_constant!(NODE_LATENCY, PW_KEY_NODE_LATENCY,
     /// the requested latency of the node as a fraction. Ex: 128/48000
 );
